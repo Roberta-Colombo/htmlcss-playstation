@@ -1,9 +1,55 @@
+.bg-debug {
+    background-color: lightblue;
+}
+
 /* Style header */
 
 .bg-black {
     background-color: var(--bs-black);
 }
 
-.bg-debug {
-    background-color: lightblue;
+#logo-bar {
+    height: 30px;
+}
+
+.logo-img {
+  width: 70px;
+} 
+
+.logo-img img {
+    width: 100%;
+    max-width: 100%;
+} 
+
+/* Style nav */
+.navbar {
+    height: 55px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar i {
+    color: var(--bs-gray-500);
+    border: 1px solid var(--bs-gray-300);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+} 
+
+/* Style hero */
+.hero {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}   
+
+.hero img {
+    width: 60%;
 }
