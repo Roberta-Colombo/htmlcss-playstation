@@ -49,8 +49,13 @@
 }   
 
 .hero img {
-    width: 60%;
+    width: 70%;
 }
+
+.hero2 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
 /* Style cards */
 .my-rounded {
     border-radius: 15px;
@@ -67,6 +72,46 @@
     padding: 2px;
 }
 
+/* Style PS5 */
 #ps5 .text-primary {
     font-size: 0.7rem;
+}
+
+.thumbs {
+    padding-bottom: 2rem;
+}
+
+.caption {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    display: none;
+    text-align: center;
+}
+
+.thumb-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border-bottom: 2px solid var(--bs-blue);
+    padding: 10px 0px;
+}
+/* 
+.thumbs .thumb:hover .active {
+    border-bottom-color:;
+} */
+
+
+
+/* MEDIAQUERY */
+@media screen and (min-width: 768px) {
+    .caption {
+        display: block;
+    }
+
+    .thumbs img {
+        width: 60%;
+    }
 }
