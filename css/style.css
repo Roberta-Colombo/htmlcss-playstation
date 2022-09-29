@@ -1,0 +1,9 @@
+/* Style header */
+
+.bg-black {
+    background-color: var(--bs-black);
+}
+
+.bg-debug {
+    background-color: lightblue;
+}
