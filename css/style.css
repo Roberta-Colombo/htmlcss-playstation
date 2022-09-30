@@ -47,6 +47,31 @@ a {
     background-color: var(--dirtywhite);
 }
 
+.my-btn:hover {
+    border-style: double;
+    border-color: white;  
+}
+
+.btn-nav:hover {
+    box-shadow: 0px 0px 3px 3px var(--lightblack);
+}
+
+.btn-red:hover {
+    box-shadow: 0px 0px 3px 3px var(--orangered);
+}
+
+.btn-blue:hover {
+    box-shadow: 0px 0px 3px 3px var(--bs-blue);
+}
+
+.btn-dirtywhite:hover {
+    box-shadow: 0px 0px 3px 3px var(--dirtywhite);
+}
+
+.btn-white:hover {
+    box-shadow: 0px 0px 3px 3px var(--bs-white);
+} 
+
 /* Style logobar */
 
 .bg-black {
