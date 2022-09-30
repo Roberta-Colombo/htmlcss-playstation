@@ -1,3 +1,7 @@
+:root {
+    --taupe: #BEBCBB; 
+}
+
 .bg-debug {
     background-color: lightblue;
 }
@@ -5,6 +9,10 @@
 .my-container {
     max-width: 90%;
     margin: 0 auto;
+}
+
+.small-font {
+    font-size: 0.8rem;
 }
 
 /* Style logobar */
@@ -67,7 +75,6 @@
     background-size: cover;
     background-position: center;
     padding-top: 10rem;
-    font-size: 0.8rem;
     line-height: 1.2;
 }   
 
@@ -100,7 +107,7 @@
     font-size: 0.7rem;
 }
 
-#ps5 p, #ps4 p {
+#ps5 p, #ps4 p, #special-feature p {
     line-height: 1.2;
 }
 
@@ -130,9 +137,17 @@
     border-bottom-color:;
 } */
 
-/* Style nuove uscite */
-.new p {
-    font-size: 0.8rem;
+/* Style special features */
+.special-ft img {
+    width: 50%;
+}
+
+.bg-taupe {
+    background-color: var(--taupe);
+}
+
+.hidden-img {
+    display: none;
 }
 
 
@@ -144,5 +159,9 @@
 
     .thumbs img {
         width: 60%;
+    }
+
+    .hidden-img {
+        display: block;
     }
 }
