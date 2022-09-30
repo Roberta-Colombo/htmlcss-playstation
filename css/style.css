@@ -1,5 +1,6 @@
 :root {
     --taupe: #BEBCBB; 
+    --nightblue: #161C3B;
 }
 
 .bg-debug {
@@ -148,6 +149,10 @@
 
 .hidden-img {
     display: none;
+}
+
+.bg-nightblue {
+    background-color: var(--nightblue);
 }
 
 
