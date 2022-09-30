@@ -157,6 +157,18 @@
 
 
 /* MEDIAQUERY */
+@media screen and (min-width: 576px) {
+    .social-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* #social img {
+       height: 100px;
+       width: 100px;
+    } */
+}
+
 @media screen and (min-width: 768px) {
     .caption {
         display: block;
