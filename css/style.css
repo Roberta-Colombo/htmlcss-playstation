@@ -2,6 +2,11 @@
     background-color: lightblue;
 }
 
+.my-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 /* Style logobar */
 
 .bg-black {
@@ -20,6 +25,7 @@
     width: 100%;
     max-width: 100%;
 } 
+
 /* Style nav */
 .navbar {
     height: 55px;
