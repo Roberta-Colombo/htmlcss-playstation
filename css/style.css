@@ -100,6 +100,10 @@
     font-size: 0.7rem;
 }
 
+#ps5 p, #ps4 p {
+    line-height: 1.2;
+}
+
 .thumbs {
     padding-bottom: 2rem;
 }
@@ -129,7 +133,7 @@
 /* Style nuove uscite */
 .new p {
     font-size: 0.8rem;
-}""
+}
 
 
 /* MEDIAQUERY */
