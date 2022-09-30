@@ -2,7 +2,7 @@
     background-color: lightblue;
 }
 
-/* Style header */
+/* Style logobar */
 
 .bg-black {
     background-color: var(--bs-black);
@@ -38,6 +38,23 @@
 .navbar-toggler:focus {
     box-shadow: none;
 } 
+
+.nav-link{
+    color: var(--bs-black);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.fa-solid.fa-angle-down, .fa-solid.fa-magnifying-glass {
+    border-style: none;
+}
+
+.fa-solid.fa-angle-down {
+    font-size: 0.6rem;
+    color: var(--bs-gray-500);
+}
+
+
 /* Style hero */
 .hero {
     background-image: url("../img/jumbo-bg.png");
