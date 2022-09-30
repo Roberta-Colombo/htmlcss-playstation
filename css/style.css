@@ -157,6 +157,10 @@ a {
 .cards img:hover {
     border: 2px solid var(--bs-blue);
     padding: 2px;
+    position: relative;
+    bottom: 10%;
+    transform: translate(0, -10%);
+    margin-top: 5%;
 }
 
 /* Style PS5 */
