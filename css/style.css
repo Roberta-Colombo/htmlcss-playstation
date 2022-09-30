@@ -2,10 +2,9 @@
     --taupe: #BEBCBB; 
     --nightblue: #161C3B;
     --oceanblue: #00439C; 
-}
-
-.bg-debug {
-    background-color: lightblue;
+    --lightblack: #363636; 
+    --orangered: #CD3D0F;
+    --dirtywhite: #D9DADC;
 }
 
 .my-container {
@@ -28,6 +27,24 @@ a {
 .my-btn {
     border-radius: 20px;
     color: var(--bs-white);
+    border-style: none;
+    padding: 4px 10px 6px 10px;
+}
+
+.btn-nav {
+    background-color: var(--lightblack);
+}
+
+.btn-red {
+    background-color: var(--orangered);
+}
+
+.btn-blue {
+    background-color: var(--bs-blue);
+}
+
+.btn-dirtywhite {
+    background-color: var(--dirtywhite);
 }
 
 /* Style logobar */
