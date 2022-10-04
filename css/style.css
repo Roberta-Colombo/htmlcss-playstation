@@ -125,6 +125,33 @@ a {
     color: var(--bs-gray-500);
 }
 
+.dropdown {
+    position: static;
+} 
+  
+.dropdown-content {
+    position: absolute;
+    background-color: var(--bs-white);
+    width: 100%;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.dropdown-content img {
+    width: 40%;
+    cursor: pointer;
+}
+
+.dropdown-content .ps-icon-menu {
+    width: 95px;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+}  
 
 /* Style hero */
 .hero {
@@ -193,10 +220,6 @@ a {
     border-bottom: 2px solid var(--bs-blue);
     padding: 10px 0px;
 }
-/* 
-.thumbs .thumb:hover .active {
-    border-bottom-color:;
-} */
 
 /* Style special features */
 .special-ft img {
